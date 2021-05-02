@@ -1,21 +1,16 @@
-# Reverse Arrays
-
+# Reverse an Array
 <!-- Short summary or background information -->
+Givin an input array of any type, reverse the element order.
 
 ## Challenge
-
-Print an array in javascript, without using built-in methods
+<!-- Description of the challenge -->
+when this array input [1, 2, 3, 4, 5, 6]  to become [6, 5, 4, 3, 2, 1]
 
 ## Approach & Efficiency
-
-- Iterate the array with a for loop
-- At each element, use `console.log()` to print the value
-
-Big O:
-
-- Time: O(n)
-- Space: O(1)
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+Space : O(n).
+Time : O(n).
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![whiteboard](whiteboard.png)
+![challenge Whiteboard](../../../../assets/reverseArra.png
