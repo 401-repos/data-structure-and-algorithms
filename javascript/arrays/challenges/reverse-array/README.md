@@ -13,4 +13,5 @@ Time : O(n).
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![challenge Whiteboard](../../../../assets/reverseArra.png
+![challenge Whiteboard](../../../../assets/reverseArra.png)
+[Reverse array file](reverse-arrays.js)
