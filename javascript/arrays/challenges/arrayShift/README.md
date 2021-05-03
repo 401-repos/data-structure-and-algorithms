@@ -16,3 +16,4 @@ Space complexity = O(n).
 ## Solution
 <!-- Embedded whiteboard image -->
 ![insertShiftArray](../../../../assets/insertShiftArray.jpeg)
+[insert and shift array file](array-shift.js)
