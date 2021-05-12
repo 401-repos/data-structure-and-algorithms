@@ -7,7 +7,7 @@ class Node {
   }
 }
 
-class LinkedList{
+class LinkedList {
   constructor() {
     this.head = null;
   }
@@ -46,5 +46,6 @@ class LinkedList{
 }
 
 module.exports = {
-  Node,LinkedList
-}
+  Node,
+  LinkedList,
+};
