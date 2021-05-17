@@ -5,6 +5,7 @@ Write a method for the Linked List class which takes a number, k, as a parameter
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
 
+[whiteBoard](../../../../assets/whiteboard07.jpeg)
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
