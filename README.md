@@ -10,3 +10,4 @@
 | Insert After a value in the LL  | [insert after](javascript/linked-lists/challenges/insertAfter/insertAfter.js)                |
 | Insert Before a value in the LL | [insert before](javascript/linked-lists/challenges/insertBefore/insertBefore.js)             |
 | Kth From End of LL              | [Kth From End](javascript/linked-lists/challenges/kthFromEnd/kthFromEnd.js)                  |
+| Zip LL                          | [Zip Linked Lists](javascript/linked-lists/challenges/llZip/ll-zip.js)                       |

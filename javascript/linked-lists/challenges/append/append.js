@@ -1,6 +1,6 @@
 'use strict';
 
-const {LinkedList, Node} = require('../../linked-lists');
+const {LinkedList, Node} = require('../../linked-lists.js');
 
 LinkedList.prototype.append = function (val) {
     let current = this.head;
