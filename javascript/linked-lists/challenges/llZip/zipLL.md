@@ -5,7 +5,7 @@ Write a function called zipLists which takes two linked lists as arguments. Zip 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
 
-[whiteBoard](../../../../assets/../../assets/zipLL.jpeg.jpeg)
+![whiteBoard](../../../../assets/zipLL.jpeg)
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
