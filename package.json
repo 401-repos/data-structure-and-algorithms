@@ -8,7 +8,9 @@
   },
   "author": "",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "treeify": "^1.1.0"
+  },
   "devDependencies": {
     "eslint": "^7.6.0",
     "jest": "^26.3.0"
