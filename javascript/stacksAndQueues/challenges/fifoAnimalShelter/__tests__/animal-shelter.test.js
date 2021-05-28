@@ -14,7 +14,6 @@ describe('Animal Shelter', () => {
         let myAnimal3 = new Animal('zar', 10, 'dog')
         expect(myAnimal2).toBeDefined();
         expect(myAnimal3.name).toEqual('zar')
-        expect(myAnimal1.num).toBe(null);
     });
     it('should add new animal to animal lists', () => {
         let shelter = new AnimalShelter();

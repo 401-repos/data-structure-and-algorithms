@@ -1,31 +1,28 @@
 'use strict';
 
-const { Queue , Node} = require('../../stacks-and-queues');
+const {
+    Queue,
+    Node
+} = require('../../stacks-and-queues');
 
 
 class Animal {
-    constructor(name, age , type) {
+    constructor(name, age, type) {
         this.name = name;
         this.age = age;
-        this.num = null;
         this.type = type;
     }
 }
 
-class AnimalShelter{
+class AnimalShelter {
     constructor() {
         this.cats = new Queue();
         this.dogs = new Queue();
-        this.num = 0;
     }
     enqueue(animal) {
         if (animal.type == 'cat') {
-            this.num++;
-            animal.num = this.num;
             this.cats.enqueue(animal);
         } else if (animal.type == 'dog') {
-            this.num++;
-            animal.num = this.num;
             this.dogs.enqueue(animal);
         } else {
             throw new Error('Animal type is not in the list.')

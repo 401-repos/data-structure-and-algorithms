@@ -7,7 +7,7 @@ dequeue(pref): returns either a dog or a cat. If pref is not "dog" or "cat" then
 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
-![PseudoQueue image](../../../../assets/animalShelter.jpeg)
+![PseudoQueue image](../../../../assets/animalShelter2.jpeg)
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
