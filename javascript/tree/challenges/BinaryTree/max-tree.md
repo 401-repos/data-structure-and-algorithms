@@ -17,7 +17,7 @@ Big O:
 
 ## Solution
 <!-- Show how to run your code, and examples of it in action -->
-Using the BinaryTree. Create a new instance of the class. 
+Using the BinaryTree. Create a new instance of the class.
 
 ```javascript
 
@@ -25,13 +25,14 @@ let tree = new BinaryTree(5);
 
 ```
 
-Insert some new nodes to the tree: 
+Insert some new nodes to the tree:
 
 ```javascript
 
 tree.add(11).add(100).add(30)
 
 ```
+
 Log the max value with this method:
 
 ```javascript
@@ -39,4 +40,5 @@ Log the max value with this method:
 console.log(tree.max());
 
 ```
+
 This should print "100" to the console.
