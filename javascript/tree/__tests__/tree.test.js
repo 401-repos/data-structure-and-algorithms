@@ -1,10 +1,10 @@
 const BST = require('../tree');
-const tree = new BST.BinarySearchTree(10);
+const tree = new BST(10);
 
 describe('Trees BTS', () => {
     it('should throw an error ', () => {
         expect(() => {
-            const tree2 = new BST.BinarySearchTree();
+            const tree2 = new BST();
         }).toThrow();
     });
     it('should successfully instantiate an empty tree', () => {
