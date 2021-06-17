@@ -8,7 +8,7 @@ Quick sort is one of the famous sorting algorithms. The algorithm is good to sor
 
 Quick sort takes a pivot which is one of the elements in the array. Then, we take two pointers one from the beginning of the array after the pivot, and one from the end of the array. Then we move on from the left side until we reach a number that is begging than the pivot and stop. We also move to the right pointer toward the left side one element at a time until we reach a number less than the pivot so we stop. If the index of the left pointer is still less than the index of the right pointer, we swap the two elements and continue doing this step until we reach a time where we have the right pointer is less than the left pointer. Here we swap the pivot with the right pointer after it becomes less than the left pointer. Now we will have the pivot sorted out and we repeat the whole steps on the left and the right sides of the array starting from before and after the index of the sorted previous pivot. In the end we will have the whole array sorted.
 
-```Pseudocode
+```Pseudo-code
 
 ALGORITHM QuickSort(arr, left, right)
     if left < right

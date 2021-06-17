@@ -12,5 +12,8 @@
 | Kth From End of LL              | [Kth From End](javascript/linked-lists/challenges/kthFromEnd/kthFromEnd.js)                    |
 | Zip LL                          | [Zip Linked Lists](javascript/linked-lists/challenges/llZip/ll-zip.js)                         |
 | Stack and Queues                | [Stack and queues](javascript/stacksAndQueues/stacks-and-queues.js)                            |
-| PseudoQueue                     | [PsudoQueue](javascript/stacksAndQueues/challenges/queueWithStacks/queue-with-stacks.js)       |
+| PseudoQueue                     | [Pseudo-Queue](javascript/stacksAndQueues/challenges/queueWithStacks/queue-with-stacks.js)       |
 | fifoAnimalShelter               | [FifoAnimalShelter](javascript/stacksAndQueues/challenges/fifoAnimalShelter/animal-shelter.js) |
+| Insertion Sort                  | [Insertion Sort](javascript/arrays/challenges/InsertionSort/ins-sort.js)                       |
+| Quick Sort                      | [Quick Sort](javascript/arrays/challenges/quickSort/quick-sort.js)                             |
+| Merge Sort                      | [Merge Sort](javascript/arrays/challenges/mergesort/mergesort.js)                              |
