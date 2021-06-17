@@ -8,6 +8,14 @@ class Node{
     }
 }
 
+class KTreeNode {
+    constructor(val){
+        this.value = val;
+        this.child = null;
+        this.sibling = null;
+    }
+}
+
 class BinaryTree{
     constructor(val) {
         if (!val) {
@@ -105,4 +113,11 @@ class BinarySearchTree extends BinaryTree{
     }
 }
 
-module.exports = BinarySearchTree;
+
+class KTree{
+    constructor(val){
+        this.root = new KTreeNode(val)
+    }
+}
+
+module.exports = {BinaryTree,BinarySearchTree, KTree, KTreeNode};
