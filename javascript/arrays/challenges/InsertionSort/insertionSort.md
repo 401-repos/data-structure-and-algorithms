@@ -51,7 +51,7 @@ In the third iteration, i will be 3 and j will be 2. The while loop will evaluat
 
 ### Iteration 4:
 
-The forth iteration, i will be 4 and j will be 3. The while loop will evaluate to true and the statements inside while will be executed two times since when we change the third element to the previous element value. Then the while will evaluate to true again. After the second looping, the conditon will fail and the value of the element next to j will be set to the value of temp which is 16. Here the element will be sorted and the iteration will end.
+The forth iteration, i will be 4 and j will be 3. The while loop will evaluate to true and the statements inside while will be executed two times since when we change the third element to the previous element value. Then the while will evaluate to true again. After the second looping, the condition will fail and the value of the element next to j will be set to the value of temp which is 16. Here the element will be sorted and the iteration will end.
 
 ![forth](../../../../assets/phase4.jpeg)
 
@@ -63,7 +63,7 @@ The fifth iteration, i will be 5 and j will be 4. The while loop will evaluate t
 
 Here, we have exhausted all elements in the array. The for loop will end and the whole function will terminate resulting in the sorted array.
 
-## Efficency:
+## Efficiency:
 
 - Time: O(n^2)
 The basic operation of this algorithm is comparison. This will happen n * (n-1) number of times…concluding the algorithm to be n squared.
