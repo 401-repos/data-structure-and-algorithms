@@ -12,5 +12,5 @@
 | Kth From End of LL              | [Kth From End](javascript/linked-lists/challenges/kthFromEnd/kthFromEnd.js)                    |
 | Zip LL                          | [Zip Linked Lists](javascript/linked-lists/challenges/llZip/ll-zip.js)                         |
 | Stack and Queues                | [Stack and queues](javascript/stacksAndQueues/stacks-and-queues.js)                            |
-| PseudoQueue                     | [PsudoQueue](javascript/stacksAndQueues/challenges/queueWithStacks/queue-with-stacks.js)       |
+| PseudoQueue                     | [PseudoQueue](javascript/stacksAndQueues/challenges/queueWithStacks/queue-with-stacks.js)      |
 | fifoAnimalShelter               | [FifoAnimalShelter](javascript/stacksAndQueues/challenges/fifoAnimalShelter/animal-shelter.js) |
