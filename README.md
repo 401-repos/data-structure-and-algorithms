@@ -22,3 +22,5 @@
 | Insertion Sort                  | [Insertion Sort](javascript/arrays/challenges/InsertionSort/ins-sort.js)                                           |
 | Quick Sort                      | [Quick Sort](javascript/arrays/challenges/quickSort/quick-sort.js)                                                 |
 | Merge Sort                      | [Merge Sort](javascript/arrays/challenges/mergesort/mergesort.js)                                                  |
+| HashTable                       | [HashTable](javascript/hashtable/hashtable.js)                                                                     |
+| Repeated Word                   | [Repeated Word](javascript/hashtable/challenges/repeatedWord/repeated-word.js)                                     |
