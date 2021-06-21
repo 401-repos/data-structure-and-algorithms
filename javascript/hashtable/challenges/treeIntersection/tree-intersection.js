@@ -28,7 +28,7 @@ function treeIntersection(bt1 , bt2){
     }
     const traverse2 = (root)=>{
         if(table.contains(root.val.toString()) && !finder(arr, root.val)){
-            arr.push(root.val)
+            arr.push(root.val)``
         }
         if(root.left){
             traverse2(root.left);
