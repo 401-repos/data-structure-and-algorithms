@@ -6,6 +6,7 @@ class HashTable{
     constructor(size){
         this.size = size;
         this.table = new Array(size);
+        this.filled = [];
     }
     hash(key){
         let sum=0;
@@ -19,7 +20,10 @@ class HashTable{
         if(!this.table[hashed]){
             this.table[hashed] = new LinkedList();
         }
-        this.table[hashed].insert({[key]:value})
+        this.table[hashed].insert({[key]:value});
+        if(!find(this.filled , hashed)){
+            this.filled[this.filled.length] = hashed;
+        }
         return this;
     }
     get(key){
@@ -51,5 +55,12 @@ class HashTable{
         return false;
     }
 }
-
+function find(arr , elem){
+    for(let i=0; i <arr.length; i++){
+        if(arr[i] == elem){
+            return true;
+        }
+    }
+    return false;
+}
 module.exports = {HashTable};

@@ -120,4 +120,4 @@ class KTree{
     }
 }
 
-module.exports = {BinaryTree,BinarySearchTree, KTree, KTreeNode};
+module.exports = {BinaryTree,BinarySearchTree, KTree, KTreeNode ,Node};
