@@ -24,3 +24,4 @@
 | Merge Sort                      | [Merge Sort](javascript/arrays/challenges/mergesort/mergesort.js)                                                  |
 | HashTable                       | [HashTable](javascript/hashtable/hashtable.js)                                                                     |
 | Repeated Word                   | [Repeated Word](javascript/hashtable/challenges/repeatedWord/repeated-word.js)                                     |
+| Graphs                          | [Graphs](javascript/graph/graph.js)                                                                                |
