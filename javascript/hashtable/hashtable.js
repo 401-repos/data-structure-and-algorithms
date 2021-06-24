@@ -24,7 +24,7 @@ class HashTable{
         if(!find(this.filled , hashed)){
             this.filled[this.filled.length] = hashed;
         }
-        return this;
+        return this.get(key);
     }
     get(key){
         const hashed = this.hash(key);
@@ -53,6 +53,21 @@ class HashTable{
             }
         }
         return false;
+    }
+    findAndModify(key, value){
+        const hashed = this.hash(key);
+        const list = this.table[hashed];
+        if(list){
+            let current = list.head;
+            while(current){
+                if(current.data[key]){
+                    current.data[key] = value;
+                    return current.data[key];
+                }
+                current=current.next;
+            }
+        }
+        return this.set(key, value);
     }
 }
 function find(arr , elem){
