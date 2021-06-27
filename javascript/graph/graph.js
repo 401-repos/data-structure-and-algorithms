@@ -35,25 +35,4 @@ class Graph {
     }
 }
 
-
-// const graph = new Graph()
-// graph.addNode(0)
-// graph.addNode(1)
-// graph.addNode(2)
-// graph.addNode(3)
-// graph.addNode(4)
-// graph.addNode(5)
-
-// graph.addEdge(0,2)
-// graph.addEdge(1,3)
-// graph.addEdge(2,3)
-// graph.addEdge(2,4)
-// graph.addEdge(3,5)
-// graph.addEdge(4,5)
-
-// // console.table(graph.map.values())
-// for(let [key , val] of graph.map){
-//     console.log(key, val);
-// }
-
 module.exports = { Graph };
