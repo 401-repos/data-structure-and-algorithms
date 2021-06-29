@@ -26,3 +26,4 @@
 | Repeated Word                   | [Repeated Word](javascript/hashtable/challenges/repeatedWord/repeated-word.js)                                     |
 | Graphs                          | [Graphs](javascript/graph/graph.js)                                                                                |
 | Graphs Business Trip            | [Graphs Business Trip](javascript/graph/challenges/businessTrip/graph-business-trip.js.js)                         |
+| Graphs Depth-First Traverse     | [Depth-First Traverse](javascript/graph/challenges/depthFirstTraverse/depth-first-traverse.js)                     |

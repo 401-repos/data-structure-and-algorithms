@@ -17,6 +17,7 @@ describe('Graph Breadth first algorithm', () => {
     graph.addEdge(2, 4);
     graph.addEdge(3, 5);
     graph.addEdge(4, 5);
+    
     it('should return an array of all the elements in the graph', () => {
         expect(graph.breadthFirstTraverse(1)).toEqual([1,3,5])
         expect(graph.breadthFirstTraverse(0)).toEqual([0,2,1,3,4,5]);
