@@ -31,7 +31,7 @@ class Graph {
         return arr.length? arr:null;
     }
     getAdjacent(node) {
-        return this.map.get(node);
+        return this.map.get(node)?this.map.get(node):[];
     }
 }
 
